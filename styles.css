@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    color: black;
+ }
+
+ body{
+    font-family: pacifico;
+    background-color: grey;
+ }
+
+
+ header{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    background-color:royalblue;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 15px;
+    border: 2px solid black
+    
+ }
+
+ .navbar:hover{
+   cursor: pointer;
+   margin: 20px;
+   padding: 2px;
+   gap: 10px;
+   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+ }
+
+ul{
+   display: flex;
+   flex-direction: row;
+    padding-right: 5px;
+    list-style-type: none;
+    
+ }
+
+li {
+   padding-left: 10px;
+   font-size: 20px;
+   cursor: pointer;
+ }
+ 
+.logo{
+   display: flex;
+   margin: 20px;
+   cursor: pointer;
+
+}
+
+/* profesor, no encontre otra forma de cambiar el tamaño a la imagen asique opte hacerlo desde el selector de etiqueta*/
+img{
+   padding-top: 3px;
+   width: 100px;
+   height: 100px;
+
+}
