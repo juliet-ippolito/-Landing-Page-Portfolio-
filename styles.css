@@ -15,7 +15,7 @@
     display: flex;
     flex-direction: row;
     height: 100px;
-    background-color:royalblue;
+    background-color:rgb(6, 25, 82);
     justify-content: space-between;
     align-items: center;
     border-bottom: 15px;
@@ -24,18 +24,19 @@
  }
 
  .navbar:hover{
-   cursor: pointer;
+   cursor: pointer white; 
    margin: 20px;
    padding: 2px;
-   gap: 10px;
+   gap: 20px;
    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
  }
 
 ul{
    display: flex;
    flex-direction: row;
-    padding-right: 5px;
-    list-style-type: none;
+   padding: 10px;
+   gap: 10px;
+   list-style-type: none;
     
  }
 
@@ -52,10 +53,83 @@ li {
 
 }
 
-/* profesor, no encontre otra forma de cambiar el tamaño a la imagen asique opte hacerlo desde el selector de etiqueta*/
 img{
    padding-top: 3px;
    width: 100px;
    height: 100px;
 
+
 }
+
+main{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: grey;
+   color: black
+
+   
+}
+
+#hero{
+   display: flex;
+   padding: 20px;
+   width: 600px;
+   justify-content: center;
+   align-items: center;
+   margin top: 100px;
+   gap: 5px 
+
+   
+}
+
+div h1{
+   display: flex;
+   font-family:rubik distressed;
+   font-size: 50px;
+   color: black;
+   
+}
+
+
+div p{
+   display: flex;
+   font-size: 20px;
+   font-family: 'Times New Roman', Times, serif;
+   overflow: auto;
+   max width: 50px;
+   max height: 50px 
+
+}
+
+
+.foto-service {
+   flex-direction: row;
+   justify-content: flex-end;
+   align-items: flex-end;
+   height: 100px;
+   width: 100px;
+   /* profesor acá tuve problemas para poder ampliar la imagen, creo que me esta tomando las medidas de mi img y es por eso que no me permite hacerla más grande */
+}
+
+span {
+   color: black;
+   font-family: lobster; 
+   gap: 20px 
+}
+/* profesor, aqui también que aplicar otro tipo de espaceado "&nbsp" porque no podia separar el "spam" del "p", para hacer más notable la palabra "renova", nose si es la forma correcta de hacerlo pero quise dejarlo más prolijo */
+
+
+.boton-service :hover{
+   cursor: pointer;
+   justify-content: center;
+   align-items: center;
+   text-decoration: none;
+   padding-right: 10px;
+
+
+
+
+}
+
